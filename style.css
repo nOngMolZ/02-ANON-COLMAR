@@ -153,3 +153,72 @@ header {
     gap:32px;
     padding: 0 72px;
 }
+.thesis-container h1 {
+  color: #333;
+  text-align: center;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.thesis-grid {
+  display: grid;
+  grid-template-columns: 3fr 2fr;
+}
+
+
+.urban-container {
+  display: flex;
+  flex-direction: column;
+  padding: 0 24px;
+}
+
+.urban-video > video {
+  width: 100%;
+}
+
+.urban-info {
+  padding: 8px 0 32px 0;
+}
+
+.urban-info * {
+  padding: 8px 0;
+}
+
+.urban-info p {
+  
+  color: #706c6c;
+}
+
+.other-thesis-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.other-thesis-container img {
+  width: 10rem;
+}
+
+.other-thesis-container p{
+  font-size: small;
+  color: #706c6c;
+}
+
+.fisma, .now-and-then {
+  display: flex;
+  padding: 32px;
+}
+
+.fisma {
+  background-color: white;
+}
+
+.fisma-info, .nt-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.fisma-info *, .nt-info * {
+  padding: 1%;
+  margin: 5% 8%;
+}
