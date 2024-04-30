@@ -42,3 +42,89 @@ header {
       }
     }
   }
+
+  .hero {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    background-color: darkgray;
+  }
+  .hero-left {
+    width: 60%;
+    padding: 32px;
+    img {
+      max-width: 100%;
+    }
+  }
+  .hero-right {
+    width: 40%;
+    padding: 32px 24px;
+    h1 {
+      font-size: 30px;
+    }
+    p {
+      font-size: 20px;
+      margin-bottom: 16px;
+    }
+    button {
+      padding: 8px 8px;
+      width: 100%;
+      font-size: 16px;
+      background-color: rgba(15, 14, 14, 0.733);
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+  }
+  .information {
+    display: flex;
+    padding: 32px 24px;
+    .info-card {
+      display: flex;
+      flex-direction: column;
+      
+    }
+    .info-left {
+      width: 60%;
+      padding: 32px 24px;
+      img {
+        max-width: 100%;
+      }
+      h3 {
+        font-size: 30px;
+      }
+      p {
+        font-size: 20px;
+       
+      }
+      h2,p{
+          margin-bottom: 24px;
+      }
+      
+    }
+    .info-right {
+      display: flex;
+      flex-direction: column;
+      width: 40%;
+      
+      .card {
+        display: flex;
+        width: 100%;
+        padding: 16px;
+        img {
+          width: 35%;
+          
+        }
+      }
+      .info-card{
+          display: flex;
+          justify-content: center;
+          width: 65%;
+          padding: 12px 12px;
+          h3,p{
+              margin-bottom: 8px;
+          }
+      }
+    
+    }
+  }
