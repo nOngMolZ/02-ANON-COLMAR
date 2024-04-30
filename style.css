@@ -253,3 +253,47 @@ footer a {
 footer li {
   padding: 0 1em;
 }
+@media (max-width: 480px) {
+  header {
+    flex-direction: column;
+    align-items: center;
+    padding: 0 12px;
+  }
+  header .logo p {
+    font-size: 24px;  
+  }
+  header nav ul {
+    flex-direction: column; 
+  }
+  header nav ul li {
+    margin: 8px 0; 
+  }
+
+  .hero, .hero-left, .hero-right {
+    width: 100%; /
+  }
+
+  .hero-right h1, .info-left h3 {
+    font-size: 24px; 
+  }
+
+  .hero-right p, .info-left p {
+    font-size: 16px; 
+  }
+
+  .information, .info-left, .info-right {
+    flex-direction: column;
+  }
+
+  .info-right .card {
+    flex-direction: column; 
+  }
+
+  .card-course-main {
+    grid-template-columns: 1fr; 
+  }
+
+  .fisma, .now-and-then {
+    flex-direction: column; 
+  }
+}
