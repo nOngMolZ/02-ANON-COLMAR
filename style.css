@@ -222,3 +222,34 @@ header {
   padding: 1%;
   margin: 5% 8%;
 }
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid #ebe6e6;
+  margin-bottom: 16px;
+}
+
+footer > * {
+  font-size:small;
+  color: #706c6c;
+  margin-top: 0;
+  padding-top: 16px;
+}
+footer p{
+  padding: 24px;
+
+}
+footer ul {
+  display: flex;
+  list-style: none;
+}
+
+footer a {
+  text-decoration: none;
+  color: #706c6c;
+}
+
+footer li {
+  padding: 0 1em;
+}
